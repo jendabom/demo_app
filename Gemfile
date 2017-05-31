@@ -40,7 +40,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'sqlite3', '1.3.12'
+  gem 'sqlite3'
   gem 'byebug',  '9.0.0', platform: :mri
 end
 
